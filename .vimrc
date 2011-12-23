@@ -2,7 +2,7 @@ call pathogen#infect()
 
 set nocompatible
 syntax enable
-setbackground=dark
+set background=dark
 colorscheme solarized
 set encoding=utf-8
 set showcmd
