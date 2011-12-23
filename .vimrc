@@ -1,8 +1,21 @@
-set smartindent
-set tabstop=4
-set shiftwidth=4
-set expandtab
-set ruler
-set number
+call pathogen#infect()
 
-colorscheme railscasts
+set nocompatible
+syntax enable
+setbackground=dark
+colorscheme solarized
+set encoding=utf-8
+set showcmd
+filetype plugin indent on
+
+"" Whitespace
+set nowrap
+set tabstop=2 shiftwidth=2
+set expandtab
+set backspace=indent,eol,start
+
+"" Searching
+set hlsearch
+set incsearch
+set ignorecase
+set smartcase
