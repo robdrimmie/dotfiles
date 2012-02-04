@@ -19,3 +19,16 @@ set hlsearch
 set incsearch
 set ignorecase
 set smartcase
+
+"" Line numbers
+set number
+
+"" Status Line, much stolen from: http://www.plainlystated.com/2009/05/vim-statusline/
+"" see also :help statusline
+set laststatus=2
+set statusline=   "Empty statusline
+set statusline+=%3(b%n%)\ " Buffer number
+set statusline+=%-40f             " Relative path
+set statusline+=%=                " everything before this has been left justified, everything after will be right
+set statusline+=\ %10(%H%M%R%W%)\ 
+set statusline+=%02c\ %02l/%02L\ \(%03p%%\)\ \ 
