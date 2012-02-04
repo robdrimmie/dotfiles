@@ -30,5 +30,11 @@ set statusline=   "Empty statusline
 set statusline+=%3(b%n%)\ " Buffer number
 set statusline+=%-40f             " Relative path
 set statusline+=%=                " everything before this has been left justified, everything after will be right
+set statusline+=%#warnningmsg#
+set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%*
 set statusline+=\ %10(%H%M%R%W%)\ 
 set statusline+=%02c\ %02l/%02L\ \(%03p%%\)\ \ 
+
+"" Syntastic Options
+"let syntastic_check_on_open=1
