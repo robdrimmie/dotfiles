@@ -1,11 +1,10 @@
 [user]
   name = rmdrimmie
   email = rob.drimmie@gmail.com
-[editor]
-  vim
 [color]
   ui = auto
 [push]
   default = matching
 [core]
+  editor=mvim -v
   excludedfiles = .DS_Store
