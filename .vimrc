@@ -1,12 +1,12 @@
 call pathogen#infect()
 
-set nocompatible
+"set nocompatible
 syntax enable
 set background=dark
 colorscheme solarized
-set encoding=utf-8
-set showcmd
-filetype plugin indent on
+"set encoding=utf-8
+"set showcmd
+"filetype plugin indent on
 
 "" Whitespace
 set nowrap

@@ -6,6 +6,8 @@ made a lot of sense so I am starting back from 0.
 
 ## Plugins and whatnot
 
+
+
 ### Pathogen 
 for easy plugin management
 
@@ -16,7 +18,9 @@ for colouring
 
 https://github.com/altercation/vim-colors-solarized
 
-really it's just the vimrc file at this point.
+Depends on iTerm being setup with Solarized colour schemes as well, otherwise it is like a clown car.
+https://github.com/altercation/solarized/tree/master/iterm2-colors-solarized
+
 
 ### Syntastic
 For linting
