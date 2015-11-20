@@ -4,15 +4,19 @@ call pathogen#infect()
 syntax enable
 set background=dark
 colorscheme solarized
-"set encoding=utf-8
-"set showcmd
-"filetype plugin indent on
+set encoding=utf-8
+set showcmd
+filetype plugin indent on
 
 "" Whitespace
 set nowrap
 set tabstop=2 shiftwidth=2
 set expandtab
 set backspace=indent,eol,start
+set listchars=eol:¬,tab:>·,trail:~,extends:>,precedes:<,space:␣
+set list
+
+au FileType php setl sw=4 sts=4 et
 
 "" Searching
 set hlsearch
