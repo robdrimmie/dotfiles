@@ -4,6 +4,9 @@ call pathogen#infect()
 syntax enable
 set background=dark
 colorscheme solarized
+highlight NonText ctermbg=None ctermfg=233
+highlight SpecialKey ctermbg=None ctermfg=233
+
 set encoding=utf-8
 set showcmd
 filetype plugin indent on
